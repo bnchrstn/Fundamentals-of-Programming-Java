@@ -5,7 +5,7 @@ public class AdvanceCalculator {
 
     public static void main(String[] args) {
        
-       java.util.Scanner scan = new java.util.Scanner(System.in);
+        java.util.Scanner scan = new java.util.Scanner(System.in);
         
         System.out.println("========================================");
         System.out.println("\t MEDYO ADVANCE CALCULATOR");
