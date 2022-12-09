@@ -16,35 +16,29 @@ public class AdvanceCalculator {
         System.out.print("Enter second number: ");
         double num2 = scan.nextDouble();
         
-        System.out.println();
-        
-        System.out.println("For addition enter <+>");
+        System.out.println("\nFor addition enter <+>");
         System.out.println("For subtraction enter <->");
         System.out.println("For multiplication enter <*>");
         System.out.println("For division enter </>");
         
-        System.out.println();
-        
-        System.out.print("Enter the operation: ");
+        System.out.print("\nEnter the operation: ");
         char ope = scan.next().charAt(0);
-        
-        System.out.println();
        
         if (ope == '+') {
             double sum = num1 + num2;
-            System.out.println("Answer: " + " " + num1 + " " + ope + " " + num2 + " = " + sum);
+            System.out.println("\nAnswer: " + " " + num1 + " " + ope + " " + num2 + " = " + sum);
         }
         if (ope == '-') {
             double diff = num1 - num2;
-            System.out.println("Answer: " + " " + num1 + " " + ope + " " + num2 + " = " + diff);
+            System.out.println("\nAnswer: " + " " + num1 + " " + ope + " " + num2 + " = " + diff);
         }
         if (ope == '*') {
             double prod = num1 * num2;
-            System.out.println("Answer: " + " " + num1 + " " + ope + " " + num2 + " = " + prod);
+            System.out.println("\nAnswer: " + " " + num1 + " " + ope + " " + num2 + " = " + prod);
         }
         if (ope == '/') {
             double quot = num1 / num2;
-            System.out.println("Answer: " + " " + num1 + " " + ope + " " + num2 + " = " + quot);
+            System.out.println("\nAnswer: " + " " + num1 + " " + ope + " " + num2 + " = " + quot);
         }
        
     }
